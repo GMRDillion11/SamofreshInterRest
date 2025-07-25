@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - SamPstar Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      /* 🔽 Change the background image here */
+      background: url('img1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      animation: flyIn 2.5s ease-in-out;
+    }
+
+    @keyframes flyIn {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    header {
+      background-color: rgba(255, 0, 0, 0.8); /* Pepper red */
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: yellow;
+      text-shadow: 2px 2px black;
+    }
+
+    nav {
+      background: yellow;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: red;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .food-item {
+      background: rgba(0, 0, 0, 0.6);
+      margin: 15px;
+      padding: 15px;
+      border-radius: 15px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .food-item img {
+      width: 100%;
+      height: 180px;
+      border-radius: 10px;
+    }
+
+    .food-item h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+    }
+
+    .price {
+      color: #ffd700;
+      font-weight: bold;
+    }
+        }
+    
+        .actions {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .actions button {
+      width: auto;
+      margin: 0 10px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🍛 Our Delicious Menu</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Chefs.html">Chefs</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <div class="menu-container">
+    <!-- 🔽 European Food -->
+    <div class="food-item">
+      <img src="img2.jpg" alt="European Food">
+      <h3>European Dish</h3>
+      <p>capalla</p>
+      <p class="price">₦7,500</p>
+    </div>
+
+    <!-- 🔽 Chinese Food -->
+    <div class="food-item">
+      <img src="Chinese.jpg" alt="Chinese Food">
+      <h3>Chinese Dish</h3>
+      <p>Hong Kong Chinese Food</p>
+      <p class="price">₦7,500</p>
+    </div>
+
+    <!-- 🔽 Yoruba Food -->
+    <div class="food-item">
+      <img src="img1.jpg" alt="Yoruba Food">
+      <h3>Yoruba Dish</h3>
+      <p>Egusi and iyan</p>
+      <p>Egusi and pounded yam</p>
+      <p class="price">₦7,500</p>
+    </div>
+
+    <!-- 🔽 Igbo Food -->
+    <div class="food-item">
+      <img src="Igbo.jpg" alt="Igbo Food">
+      <h3>Igbo Dish</h3>
+      <p>Egusi and Apbu</p>
+      <p>with pomo</p>
+      <p class="price">₦7,500</p>
+    </div>
+
+    <!-- 🔽 Hausa Food -->
+    <div class="food-item">
+      <img src="Hausa.png" alt="Hausa Food">
+      <h3>Hausa Dish</h3>
+      <p>Tuwo and masamasa</p>
+      <p class="price">₦7,500</p>
+    </div>
+  </div>
+   <footer>
+    📧 Email: <a href="mailto:freshokeoghene@gmail.com">freshokeoghene@gmail.com</a><br>
+    📞 Call Customer Service: <a href="tel:07019184147">07019184147</a><br>
+    &copy; 2025 SamPstar Restaurant. All rights reserved.
+  </footer>
+
+</body>
+</html>
